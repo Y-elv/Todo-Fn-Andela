@@ -15,7 +15,7 @@ function App() {
         <Route path="/register" element={<Signup />} />
         <Route path="/todo" element={<Todo />} />
         <Route path="/createTask" element={<CreateTask />} />
-        <Route path="/updateTask" element={<UpdateTask />} />
+        <Route path="/updateTask/:taskId" element={<UpdateTask />} />
       </Routes>
     </>
   );
